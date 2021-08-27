@@ -1,0 +1,100 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<div class="relative">
+  <section id="title">
+    <img id="backdrop" src="assets/headers/title.jpg" alt="bg" />
+  </section>
+  <div class="title-text">
+    <section id="body">
+      <h4 class="ml1" style="margin: 0">
+        <span class="text-wrapper">
+          <span class="line line1"></span>
+          <span class="letters">Renzo Orduña</span>
+          <span class="line line2"></span>
+        </span>
+      </h4>
+      <p id="position" class="an-2">{{ position }}</p>
+    </section>
+  </div>
+</div>
+
+<div class="content" id="welcome" style="text-align: center">
+  <h2>Bienvenido</h2>
+  <br />
+  <p>
+    <i>
+      {{ slogan }}
+    </i>
+  </p>
+</div>
+<br />
+
+<div data-aos="fade-up" id="about">
+  <img
+    id="me"
+    [src]="'assets/self/renzo' + imageNum + '.jpg'"
+    class="img-thumbnail img-fluid float-left"
+    alt="Renzo"
+    onContextMenu="return false;"
+  />
+
+  <div id="info">
+    <h2>Hola, soy Renzo!</h2>
+    <h3 style="text-align: center">(/renzoxpixelyː/ Soluciones Coder)</h3>
+    <br />
+    <li>Ingeniería de Software | UNMSM</li>
+    <li>Desarrollador Full Stack Javascript (MEAN Stack)</li>
+    <li>Canal de youtube compartiendo código libre</li>
+    <br />
+  </div>
+</div>
+
+<div class="container" data-aos="fade-up">
+  <h2>Destacado</h2>
+  <div class="columns">
+    <div *ngFor="let hl of highlights" class="column">
+      <div class="card">
+        <header class="card-header">
+          <p *ngIf="hl.url != ''" class="card-header-title">
+            <a href="{{ hl.url }}">{{ hl.title }}</a>
+          </p>
+          <p *ngIf="hl.url == ''" class="card-header-title">
+            {{ hl.title }}
+          </p>
+          <div class="card-header-icon">
+            <span class="icon">
+              <i class="fas {{ hl.icon }}"></i>
+            </span>
+          </div>
+        </header>
+        <div class="card-content">
+          <div class="content">
+            {{ hl.content }}
+            <br />
+            <time class="has-text-grey">{{ hl.date }}</time>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div data-aos="fade-up">
+  <h2>Fotografía</h2>
+  <div class="carousel">
+    <carousel
+      [height]="300"
+      [cellWidth]="'100%'"
+      [margin]="30"
+      [loop]="true"
+      [autoplay]="true"
+      [autoplayInterval]="3000"
+      [dots]="true"
+      [borderRadius]="10"
+      [arrowsOutside]="arrowsOutside"
+      [objectFit]="'cover'"
+      [images]="images"
+    >
+    </carousel>
+  </div>
+</div>

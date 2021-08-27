@@ -1,0 +1,29 @@
+[
+  {
+    "id": "kurius",
+    "logo": "kurius.png",
+    "title": "COURSERA",
+    "duration": "Marzo 2020",
+    "position": "Full Stack JavaScript",
+    "images": [],
+    "desc": [
+      "This course concentrates mainly on Javascript based front-end frameworks, and in particular the Angular framework (Currently Ver. 6.x). This course will use Typescript for developing Angular application. Typescript features will be introduced in the context of Angular as part of the exercises."
+    ]
+  },
+  {
+    "id": "mathk",
+    "logo": "kurius.png",
+    "title": "COURSERA",
+    "duration": "Marzo 2021",
+    "position": "MongoDB",
+    "images": [
+      {
+        "position": "imgleft",
+        "src": "mathk.jpeg"
+      }
+    ],
+    "desc": [
+      "Base de datos en javascript"
+    ]
+  }
+]

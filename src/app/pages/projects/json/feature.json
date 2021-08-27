@@ -1,0 +1,46 @@
+[
+  {
+    "id": "almacen",
+    "title": "SISTEMA DE GESTIÓN DE INVENTARIO",
+    "oneLiner": "Sistema de software realizado en PHP MYSQL CODEIGNITER para realizar un seguimiento de los niveles de inventario, pedidos, ventas y entregas.",
+    "link": [
+      {
+        "site": "Video",
+        "url": "https://www.youtube.com/watch?v=4Kn_KXcmjWU&ab_channel=SolucionesCoder"
+      }
+    ]
+  },
+  {
+    "id": "home-blog-1",
+    "title": "SISTEMA DE COMPRA VENTA | CHATBOT",
+    "oneLiner": "Sistema desarrollado en Backend Laravel Frontend Vuejs Base de datos MariaBD ChatBot en Javascript. Ir a iniciar sesion usuario:admin contraseña:admin",
+    "link": [
+      {
+        "site": "Github",
+        "url": "https://github.com/renzoxpixely/Proyecto-Sistema"
+      }
+    ]
+  },
+  {
+    "id": "home-blog-2",
+    "title": "TIENDA VIRTUAL WOOCOMMERCE WORDPRESS",
+    "oneLiner": "Tienda Virtual desarrollada con WordPress usando WooComerce realiza compras online.",
+    "link": [
+      {
+        "site": "Link Proyecto",
+        "url": "http://tiendadioska.webcindario.com/"
+      }
+    ]
+  },
+  {
+    "id": "home-blog-3",
+    "title": "CAFETERÍA DJANGO",
+    "oneLiner": "Cafetería desarrollada en Django administrable usando el admin de Django",
+    "link": [
+      {
+        "site": "Github",
+        "url": "https://github.com/renzoxpixely/Web-Empresa"
+      }
+    ]
+  }
+]

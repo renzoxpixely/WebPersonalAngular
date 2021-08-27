@@ -1,0 +1,44 @@
+[
+  {
+    "tags": ["HTML", "JavaScript", "CodeIgniter", "PHP", "MySQL"],
+    "image": "phpci",
+    "name": "SISTEMA PUNTO DE VENTA",
+    "duration": "March 2021",
+    "desc": "PHP CodeIgniter 4, desarrollando un punto de venta con base de datos en MySQL.",
+    "url": "https://github.com/renzoxpixely/Punto-de-venta-con-CI4"
+  },
+  {
+    "tags": ["HTML", "JavaScript", "CodeIgniter", "PHP", "MySQL"],
+    "image": "almacen",
+    "name": "SISTEMA DE GESTIÓN DE INVENTARIO",
+    "duration": "Marzo 2020",
+    "desc": "Sistema de software realizado en PHP MYSQL CODEIGNITER para realizar un seguimiento de los niveles de inventario, pedidos, ventas y entregas.",
+    "url": "https://github.com/renzoxpixely/Punto-de-venta-con-CI4"
+  },
+  {
+    "tags": ["HTML", "JavaScript", "Laravel", "PHP", "MySQL", "VueJS"],
+    "image": "home-blog-1",
+    "name": "SISTEMA DE COMPRA VENTA | CHATBOT",
+    "duration": "Marzo 2020",
+    "desc": "Sistema desarrollado en Backend Laravel Frontend Vuejs Base de datos MariaBD ChatBot en Javascript. Ir a iniciar sesion usuario:admin contraseña:admin",
+    "url": "https://github.com/renzoxpixely/Proyecto-Sistema"
+  },
+  {
+    "tags": ["WordPress", "WooCommerce"],
+    "image": "home-blog-2",
+    "name": "TIENDA VIRTUAL WOOCOMMERCE WORDPRESS",
+    "duration": "Marzo 2020",
+    "desc": "Tienda Virtual desarrollada con WordPress usando WooComerce realiza compras online.",
+    "url": "http://tiendadioska.webcindario.com/"
+  },
+  {
+    "tags": ["HTML", "JavaScript", "Django", "SQLite"],
+    "image": "home-blog-3",
+    "name": "CAFETERÍA DJANGO",
+    "duration": "Marzo 2019",
+    "desc": "Cafetería desarrollada en Django administrable usando el admin de Django",
+    "url": "https://github.com/renzoxpixely/Web-Empresa"
+  }          
+]
+
+ 

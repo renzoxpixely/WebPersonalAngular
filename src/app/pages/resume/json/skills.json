@@ -1,0 +1,44 @@
+[
+  {
+    "category": "Lenguajes",
+    "sub": [
+      "HTML/CSS",
+      "TypeScript",
+      "JavaScript",
+      "Python",
+      "Java",
+      "C",
+      "C++",
+      "SQL"
+    ]
+  },
+  {
+    "category": "Frameworks",
+    "sub": ["Bootstrap", "Angular", "React", "Express", "Django"]
+  },
+  {
+    "category": "Base de Datos",
+    "sub": ["MongoDB", "MySQL" ,"SQLite"]
+  },
+  {
+    "category": "Software/Herramientas",
+    "sub": [
+      "SCRUM",
+      "Figma",
+      "Node.js",
+      "JSON",
+      "Postman",
+      "Microsoft Office"
+    ]
+  },
+  {
+    "category": "Habilidades blandas",
+    "sub": [
+      "Comunicación",
+      "Colaboración",
+      "Liderazgo",
+      "Resolución de problemas",
+      "Organización"
+    ]
+  }
+]

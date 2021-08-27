@@ -1,0 +1,63 @@
+<nav>
+  <ul class="nav justify-content-center" (scroll)="onWindowScroll($event)">
+    <li class="nav-item">
+      <a routerLink="/" class="nav-link">Inicio</a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="/resume" routerLinkActive="active" class="nav-link">
+        Información
+      </a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="/projects" routerLinkActive="active" class="nav-link">
+        Proyectos
+      </a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="/activities" routerLinkActive="active" class="nav-link">
+        Actividades
+      </a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="/media" routerLinkActive="active" class="nav-link">
+        Multimedia
+      </a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="/contact" routerLinkActive="active" class="nav-link">
+        Contáctame
+      </a>
+    </li>
+  </ul>
+</nav>
+<router-outlet></router-outlet>
+
+<footer>
+  <hr />
+  <h2
+    style="
+      font-size: 30px;
+      text-shadow: 0px 0px;
+      font-family: Open Sans Condensed;
+      color: #2b2b2b;
+    "
+  >
+    {{ title }}
+  </h2>
+  <p>{{ email }}</p>
+  <a href="https://www.linkedin.com/in/renzo-ordu%C3%B1a-trejo-96765017b/" target="_blank"
+    ><fa-icon [icon]="faLinkedin" class="icons"></fa-icon>
+  </a>
+  <a href="https://github.com/renzoxpixely/" target="_blank"
+    ><fa-icon [icon]="faGithub" class="icons"></fa-icon>
+  </a>
+  <a href="https://www.instagram.com/renzoor1/" target="_blank"
+    ><fa-icon [icon]="faInstagram" class="icons"></fa-icon>
+  </a>
+  <br /><br />
+  <p>
+    <i>"En cada descubrimiento, siempre habrá algo de suerte."</i> -
+    <b>Jeff Bezos</b>
+  </p>
+  <p style="font-size: 12px; margin-bottom: 0">Desarrollado</p>
+</footer>

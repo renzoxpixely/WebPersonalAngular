@@ -1,0 +1,75 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<div class="relative">
+  <section class="title">
+    <img class="header" src="assets/headers/resume.jpg" alt="header" />
+  </section>
+  <div class="title-text">
+    <section id="body">
+      <h1 class="ml1">
+        <span class="text-wrapper">
+          <span class="line line1"></span>
+          <span class="letters">Información</span>
+          <span class="line line2"></span>
+        </span>
+      </h1>
+    </section>
+  </div>
+</div>
+
+<div id="resume-format">
+  <div id="resume-sections">
+    <h2 class="resume-headers">OBJETIVO</h2>
+    <div class="resume">
+      <p>
+        Como ingeniero de software, deseo usar mi conjunto de habilidades para ayudar a otros.
+         Aunque no estoy expuesto a la industria en profundidad, creo que mis pasiones, habilidades y habilidades pueden ayudar
+          a marcar la diferencia.
+      </p>
+      <br />
+      <iframe id="iframe" src="https://drive.google.com/file/d/1gYV0kDXMEQAv2AxYOl4XxwopSZZzHMJE/preview" width="100%" height="500px"></iframe>
+    </div>
+
+    <h2 class="resume-headers">EDUCACIÓN</h2>
+    <div class="resume">
+      <p>Universidad Nacional Mayor de San Marcos</p>
+      <p><b>Ingeniería de Software</b></p>
+      <!-- <p>
+        Specialist (Co-operative) Program in Computer Science - Software
+        Engineering Stream, {{ year }} Year
+      </p>
+      <p><i>cGPA:</i> {{ cgpa }}/4.0</p>
+      <br />
+      <p><i>Awards: </i></p>
+      <li>Dean's List (September 2020)</li>
+      <li>Dean's List (October 2019)</li>
+      <li>University of Toronto Entrance Scholarship (2018)</li> -->
+    </div>
+
+    <h2 class="resume-headers">EXPERIENCIA</h2>
+    <div class="resume">
+      <div *ngFor="let exp of experience">
+        <p>
+          <b>{{ exp.role }}</b
+          >, {{ exp.company }}
+        </p>
+        <p>
+          <i>{{ exp.duration }}</i>
+        </p>
+        <br />
+      </div>
+    </div>
+  </div>
+  <br />
+
+  <div id="skills">
+    <div *ngFor="let skill of skills" class="card skill-card">
+      <div class="card-header">{{ skill.category }}</div>
+      <div class="card-body">
+        <p *ngFor="let item of skill.sub" class="card-text">
+          {{ item }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

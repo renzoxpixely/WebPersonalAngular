@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Sistema Tawa",
+    "content": "Sistema desarrollado en Backend Laravel Frontend Vuejs Base de datos MariaBD ChatBot en Javascript. Ir a iniciar sesion usuario:admin contraseña:admin",
+    "date": "Marzo 2019",
+    "icon": "fa-trophy",
+    "url": "https://github.com/renzoxpixely/Proyecto-Sistema"
+  },
+  {
+    "title": "Lorem Ipsum",
+    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "date": " 2020",
+    "icon": "fa-trophy",
+    "url": "https://github.com/renzoxpixely/"
+  },
+  {
+    "title": "Lorem Ipsum",
+    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "date": " 2020",
+    "icon": "fa-trophy",
+    "url": "https://github.com/renzoxpixely/"
+  }
+]
